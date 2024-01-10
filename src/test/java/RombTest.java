@@ -8,4 +8,9 @@ public class RombTest {
         this.romb = new Romb();
     }
 
+    @Test
+    public void testCalcArea() {
+        this.romb.calcArea(30.0);
+    }
+
 }
