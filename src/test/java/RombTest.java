@@ -1,3 +1,4 @@
+import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -13,12 +14,16 @@ public class RombTest {
 
     @Test
     public void testCalcArea() {
-        this.romb.calcArea(30.0, 70);
+        double actual = this.romb.calcArea(30.0, 70);
+        double expected = 0.0;
+        Assert.assertEquals(actual, expected, 0.1);
     }
 
     @Test
     public void testCalcCircumference() {
-        this.romb.calcCircumference(30.0);
+        double actual = this.romb.calcCircumference(30.0);
+        double expected = 0.0;
+        Assert.assertEquals(actual, expected, 0.1);
     }
 
 }
