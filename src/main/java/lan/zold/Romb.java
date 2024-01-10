@@ -2,10 +2,10 @@ package lan.zold;
 
 public class Romb {
     public double calcArea(double side, double degree) {
-        return 0.0;
+        return Math.pow(side, 2) * Math.sin(side);
     }
 
     public double calcCircumference(double side) {
-        return 0.0;
+        return 4 * side;
     }
 }
