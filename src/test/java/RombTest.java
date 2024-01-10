@@ -16,4 +16,9 @@ public class RombTest {
         this.romb.calcArea(30.0, 70);
     }
 
+    @Test
+    public void testCalcCircumference() {
+        this.romb.calcCircumference(30.0);
+    }
+
 }
