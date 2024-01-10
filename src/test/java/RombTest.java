@@ -26,4 +26,17 @@ public class RombTest {
         Assert.assertEquals(actual, expected, 0.1);
     }
 
+    @Test
+    public void testCalcArea2() {
+        double actual = this.romb.calcArea(0, 70);
+        double expected = 696.501613402;
+        Assert.assertEquals(actual, expected, 0.1);
+    }
+
+    @Test
+    public void testCalcCircumference2() {
+        double actual = this.romb.calcCircumference(0);
+        double expected = 120;
+        Assert.assertEquals(actual, expected, 0.1);
+    }
 }
